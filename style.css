@@ -1,0 +1,57 @@
+/* style.css */
+
+body {
+    font-family: 'Inter_Fallback_36bd41', Arial, sans-serif;
+    font-weight: 400;
+    color: #3f3f46;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px;
+    padding: 40px 60px; /* Added padding */
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #27272a;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #27272a;
+    margin-top: 24px;
+}
+
+p, ul {
+    margin-bottom: 16px;
+}
+
+a {
+    color: rgb(0, 102, 204);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.toc-container {
+    margin-left: 20px;
+}
+
+.toc-list, .toc-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.toc-list li {
+    margin-bottom: 5px;
+}
+
+.toc-level-1 { margin-left: 0; }
+.toc-level-2 { margin-left: 20px; }
+.toc-level-3 { margin-left: 40px; }
+.toc-level-4 { margin-left: 60px; }
+.toc-level-5 { margin-left: 80px; }
+.toc-level-6 { margin-left: 100px; }
